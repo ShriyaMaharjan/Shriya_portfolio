@@ -38,24 +38,22 @@ export default function Hero(){
                     </div>
                     {/* Social Icons */}
                     <div className="flex items-center gap-4">
-                        <a href="#"
+                        <a href="https://shriya.com.np"
                             className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
                             <Globe size={22} />
-                            </a>
-                        <a href="#"
-                    className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
-                    <User size={22} />
-                    </a>
-
-                    <a href="#"
-                    className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
-                    <Mail size={22} />
-                    </a>
-
-                    <a href="#"
-                    className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
-                    <X size={22} />
-                    </a>
+                        </a>
+                        <a href="https://linkedin.com/in/shriyamaharjan"
+                            className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
+                            <User size={22} />
+                        </a>
+                        <a href="mailto:shriya@email.com"
+                            className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
+                            <Mail size={22} />
+                        </a>
+                        <a href="https://x.com/shriyamaharjan"
+                            className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
+                            <X size={22} />
+                        </a>
                     </div>
                 </div>
                 {/* Right Image */}
