@@ -41,7 +41,7 @@ export default function Experience(){
                 </a>
                 {/* header */}
                 <div className="text-center mb-16 space-y-4">
-                    <h2 className="text-5xl md:text-6xl font-bold text-gray-900">Work Experience</h2>
+                    <h2 className="text-5xl font-bold text-gray-900">Work Experience</h2>
                     <p className="text-gray-400 text-lg">My professional Journey</p>
                 </div>
 

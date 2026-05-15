@@ -51,7 +51,7 @@ export default function Projects() {
             <div className="max-w-7xl mx-auto">
                 {/* header */}
                 <div className="text-center mb-16 space-y-4">
-                    <h2 className="text-5xl md:text-6xl font-bold text-gray-900">Featured Projects</h2>
+                    <h2 className="text-5xl font-bold text-gray-900">Featured Projects</h2>
                     <p className="text-gray-400 max-w-3xl mx-auto text-lg leading-relaxed">
                         A showcase of my recent work and personal projects
                     </p>

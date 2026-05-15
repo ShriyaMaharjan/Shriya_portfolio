@@ -17,7 +17,7 @@ export default function Contact(){
                 </div>
                 {/* Get in Touch Header */}
                 <div className="text-center mb-16 space-y-4">
-                    <h2 className="text-5xl md:text-6xl font-bold text-gray-900">Get In Touch</h2>
+                    <h2 className="text-5xl font-bold text-gray-900">Get In Touch</h2>
                     <p className="text-gray-400 text-lg">
                         Have a project in mind? Let's work together to bring your ideas to life
                     </p>
@@ -78,7 +78,7 @@ export default function Contact(){
                             <label className="text-sm font-bold text-gray-900">Message</label>
                             <textarea rows="5" placeholder="Tell me about your project" className="w-full p-4 rounded-xl border border-gray-100 bg-gray-50/50 outline-none focus:border-gray-300 transition-colors"/>
                         </div>
-                        <button className="bg-black text-white px-10 py-4 rounded-xl font-bold flex items-center gap-3 hover:bg-gray-800 transition-colors">
+                        <button className="bg-black text-white px-10 py-4 rounded-xl font-bold flex items-center gap-6 hover:bg-gray-800 transition-colors">
                             Send Message
                             <Send size={18}/>
                         </button>
