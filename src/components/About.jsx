@@ -43,7 +43,7 @@ export default function About(){
                         From wireframes to production code, I handle the entire frontend journey. I believe that great design and clean code go hand-in-hand to create interfaces that are both beautiful and accessible.
                     </p>
                     <p className="text-gray-600 leading-relaxed">
-                        When I;m not coding, you'll find me exploring the latest design trendsin Figma,
+                        When I'm not coding, you'll find me exploring the latest design trendsin Figma,
                         contributing to open-source UI libraries, or sharing frontend tips with the developer community.
                     </p>
                     <p className="text-gray-600 leading-relaxed">
