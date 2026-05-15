@@ -2,8 +2,17 @@ import {ArrowRight, Globe, Mail,} from "lucide-react";
 import { BsTwitterX } from 'react-icons/bs';
 import {FaLinkedin} from 'react-icons/fa';
 import heroImage from "../assets/hero.jpg";
+import { useState } from "react";
 
 export default function Hero(){
+    const [active, setActive] = useState("project");
+    const handleClick = (id) => {
+        setActive(id);
+        const section = document.getElementById(id);
+        if(section){
+            section.scrollIntoView({behavior: "smooth"});
+        }
+    };
     return(
         <section className="w-full bg-[#f5f5f5] px-6 py-16">
             <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-2">
@@ -30,12 +39,23 @@ export default function Hero(){
                     </p>
                     {/* Button */}
                     <div className="mb-10 flex flex-wrap items-center gap-4">
-                        <button className="flex items-center gap-3 rounded-2xl bg-black px-8 py-4 text-lg font-medium text-white transition hover:bg-gray-800">
-                            View Details
-                            <ArrowRight size={22}/>
+                        <button onClick={() => handleClick("project")} 
+                        className={`flex items-center gap-3 rounded-2xl bg-black px-8 py-4 text-lg font-medium transition ${
+                            active === "project"
+                            ? "bg-black text-white"
+                            : "bg-gray-300 text-gray-500"
+                        }`}>
+                            View Projects
+                            {active === "project" && <ArrowRight size={22} />}
                         </button>
-                        <button className="rounded-2xl bg-gray-300 px-8 py-4 text-lg font-medium text-white transition hover:bg-gray-400">
+                        <button onClick={() => handleClick("contact")} 
+                        className={`flex items-center gap-3  px-8 py-4 text-lg rounded-2xl font-medium transition ${
+                            active === "contact"
+                            ? "bg-black text-white"
+                            : "bg-gray-300 text-gray-500"
+                        }`}>
                             Contact Me
+                            {active === "contact" && <ArrowRight size={22}/>}
                         </button>
                     </div>
                     {/* Social Icons */}
@@ -60,7 +80,7 @@ export default function Hero(){
                 </div>
                 {/* Right Image */}
                 <div className="flex justify-center lg:justify-end">
-                    <div className="overflow-hidden rounded-[2rem] bg-[#ececec] p-4">
+                    <div className="overflow-hidden rounded-[2rem]">
                         <img src={heroImage} alt="Hero" className="h-[500px] object-cover"/>
                     </div>
                 </div>
