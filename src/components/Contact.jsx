@@ -1,5 +1,7 @@
 import React from "react";
-import { Mail, Phone, MapPin, Send, Globe, User, X } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Globe, } from 'lucide-react';
+import {BsTwitterX} from 'react-icons/bs';
+import {FaLinkedin} from 'react-icons/fa';
 
 export default function Contact(){
     return (
@@ -53,10 +55,22 @@ export default function Contact(){
                         <div className="space-y-6 pt-4">
                             <h4 className="text-xl font-bold text-gray-900">Connect in social media</h4>
                             <div className="flex gap-6 text-gray-900">
-                                <Globe size={28} className="cursor-pointer hover:scale-110 transition-transform"/>
-                                <User size={28} className="cursor-pointer hover:scale-110 transition-transform"/>
-                                <Mail size={28} className="cursor-pointer hover:scale-110 transition-transform"/>
-                                <X size={28} className="cursor-pointer hover:scale-110 transition-transform"/>
+                                <a href="https://shriya.com.np"
+                            className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
+                            <Globe size={22} />
+                        </a>
+                        <a href="https://linkedin.com/in/shriyamaharjan"
+                            className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
+                            <FaLinkedin size={22} />
+                        </a>
+                        <a href="mailto:shriya@email.com"
+                            className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
+                            <Mail size={22} />
+                        </a>
+                        <a href="https://x.com/shriyamaharjan"
+                            className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
+                            <BsTwitterX size={22} />
+                        </a>
                             </div>
                         </div>
                     </div>

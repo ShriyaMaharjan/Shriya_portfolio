@@ -40,7 +40,7 @@ export default function Education(){
     ];
 
     return(
-        <section id = "education" className="w-full px-6 md:px-12 py-8 bg-white">
+        <section id = "education" className="w-full px-6 md:px-12 py-8">
             <div className="max-w-7xl mx-auto">
                 {/* Main section Header */}
                 <div className="text-center mb-16 space-y-4">

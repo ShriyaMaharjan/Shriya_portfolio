@@ -6,7 +6,7 @@ export default function Skill() {
   const softSkills = ["Communication", "Project Management", "Problem Solving"];
 
   return (
-    <section id = "skill" className="w-full px-6 md:px-12 py-8 bg-white">
+    <section id = "skill" className="w-full px-6 md:px-12 py-8">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}

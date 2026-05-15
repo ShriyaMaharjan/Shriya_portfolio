@@ -9,10 +9,10 @@ export default function Learning(){
         "AWS/Cloud Sercices",
     ];
     return(
-        <section id = "learning" className="w-full px-6 md:px-12 py-10">
+        <section id = "learning" className="w-full px-6 md:px-12 py-10 bg-white">
             <div className="max-w-7xl mx-auto">
                 {/* Main black card */}
-                <div className="w-full bg-black rounded-[3rem] p-12 md:pd-20 text-center space-y-10 shadow-2xl shadow-black/20">
+                <div className="w-full bg-black rounded-[3rem] p-12 md:pd-20 text-center space-y-10">
                 {/* header */}
                 <h2 className="text-4xl md:text-5xl font-bold text-white tracking-right">
                     Always Learning

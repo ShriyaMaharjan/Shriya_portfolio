@@ -1,4 +1,6 @@
-import {ArrowRight, Globe, User, Mail, X,} from "lucide-react";
+import {ArrowRight, Globe, Mail,} from "lucide-react";
+import { BsTwitterX } from 'react-icons/bs';
+import {FaLinkedin} from 'react-icons/fa';
 import heroImage from "../assets/hero.jpg";
 
 export default function Hero(){
@@ -44,7 +46,7 @@ export default function Hero(){
                         </a>
                         <a href="https://linkedin.com/in/shriyamaharjan"
                             className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
-                            <User size={22} />
+                            <FaLinkedin size={22} />
                         </a>
                         <a href="mailto:shriya@email.com"
                             className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
@@ -52,7 +54,7 @@ export default function Hero(){
                         </a>
                         <a href="https://x.com/shriyamaharjan"
                             className="rounded-full border border-gray-300 p-3 transition hover:bg-black hover:text-white">
-                            <X size={22} />
+                            <BsTwitterX size={22} />
                         </a>
                     </div>
                 </div>
