@@ -23,7 +23,7 @@ export default function About(){
     ];
 
     return(
-        <section className="w-full mx-auto px-6 py-20 bg-white">
+        <section id = "about" className="w-full mx-auto px-6 py-20 bg-white">
             {/* Header */}
             <div className="text-center mb-16 space-y-4">
                 <h2 className="text-5xl font-bold text-gray-900">About Me</h2>

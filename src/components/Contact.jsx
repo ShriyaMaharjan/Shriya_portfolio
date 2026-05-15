@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Send, Globe, User, X } from 'lucide-react';
 
 export default function Contact(){
     return (
-        <section className="w-full px-6 md:px-12 py-8 bg-white">
+        <section id = "contact" className="w-full px-6 md:px-12 py-8 bg-white">
             <div className="max-w-7xl mx-auto">
 
                 {/* top banner */}

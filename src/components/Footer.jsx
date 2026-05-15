@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer(){
     return(
-        <footer className="w-full bg-black text-white px-6 md:px-13 py-20">
+        <footer id = "footer" className="w-full bg-black text-white px-6 md:px-13 py-20">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 mb-16">
                 {/* portfolio Info */}
                 <div className="space-y-6">

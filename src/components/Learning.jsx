@@ -9,7 +9,7 @@ export default function Learning(){
         "AWS/Cloud Sercices",
     ];
     return(
-        <section className="w-full px-6 md:px-12 py-10">
+        <section id = "learning" className="w-full px-6 md:px-12 py-10">
             <div className="max-w-7xl mx-auto">
                 {/* Main black card */}
                 <div className="w-full bg-black rounded-[3rem] p-12 md:pd-20 text-center space-y-10 shadow-2xl shadow-black/20">
