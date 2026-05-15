@@ -21,7 +21,7 @@ export default function Projects() {
             tags: ["Jupyter Notebook", "Numpy", "Python", "CNN"]
         },
         {
-            title: "HamroBazaar",
+            title: "HamroMart",
             description: "This project was an online website that lets you buy and sellthe goods and also the customers can add the products that want to sell with the description, price and also  how new or old is that product.",
             image: hamroImg,
             tags: ["HTML", "CSS", "JavaScript","PHP", "SQL"]

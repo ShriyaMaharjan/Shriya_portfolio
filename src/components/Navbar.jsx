@@ -32,10 +32,10 @@ export default function Navbar(){
                     <li className="cursor-pointer hover:text-gray-500" onClick={() => handleScroll("contact")}>Contact</li>
                 </ul>
                 {/* Resume Button */}
-                <button className="flex items-center gap-2 rounded-md bg-black px-4 py-2 text-sm font-medium text-white">
-                    <Download size={16} />
-                    Resume
-                </button>
+                <a href="/Shriya_Resume.pdf" className="flex items-center gap-2 rounded-md bg-black px-4 py-2 text-sm font-medium text-white">
+                <Download size={16}/>
+                Resume
+                </a>
             </div>
         </nav>
     );

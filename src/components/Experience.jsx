@@ -36,7 +36,7 @@ export default function Experience(){
         <section id = "experience" className="w-full px-6 md:px-12 py-8 bg-white">
             <div className="max-w-7xl mx-auto flex flex-col items-center">
                 {/* Github Button */}
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="mb-12 flex items-center gap-3 bg-black text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform">
+                <a href="https://github.com/ShriyaMaharjan" target="_blank" rel="noopener noreferrer" className="mb-12 flex items-center gap-3 bg-black text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform">
                 View All Projects On Github
                 </a>
                 {/* header */}
