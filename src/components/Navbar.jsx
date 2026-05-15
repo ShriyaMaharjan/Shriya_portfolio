@@ -1,7 +1,9 @@
-import {Download} from "lucide-react";
+import {Download, Menu, X} from "lucide-react";
 import profileImage from "../assets/2.jpg";
+import { useState } from "react";
 
 export default function Navbar(){
+    const [menuOpen, setMenuOpen] = useState(false);
     const handleScroll = (id) => {
         const section = document.getElementById(id);
         if(section){
@@ -36,7 +38,22 @@ export default function Navbar(){
                 <Download size={16}/>
                 Resume
                 </a>
+                {/* Hamburger button - mobile only */}
+                <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+                    {menuOpen ? <X size={24} /> : <Menu size={24} />}
+                </button>
             </div>
+            {/* Mobile Menu */}
+            {menuOpen && (
+                <div className="md:hidden mt-4 flex flex-col gap-4 bg-white px-6 pb-6 text-sm font-medium">
+                    <li className="list-none cursor-pointer hover:text-gray-500" onClick={() => handleScroll("about")}>About</li>
+                    <li className="list-none cursor-pointer hover:text-gray-500" onClick={() => handleScroll("skill")}>Skill</li>
+                    <li className="list-none cursor-pointer hover:text-gray-500" onClick={() => handleScroll("project")}>Project</li>
+                    <li className="list-none cursor-pointer hover:text-gray-500" onClick={() => handleScroll("experience")}>Experience</li>
+                    <li className="list-none cursor-pointer hover:text-gray-500" onClick={() => handleScroll("education")}>Education</li>
+                    <li className="list-none cursor-pointer hover:text-gray-500" onClick={() => handleScroll("contact")}>Contact</li>
+                </div>
+            )}
         </nav>
     );
 }
